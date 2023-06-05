@@ -1,0 +1,65 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ background: linear-gradient(135deg, rgba(255, 166, 0, 0.493) , rgba(255, 68, 0, 0.295));
+}
+.editBtn , .deleBtn{
+   margin: 7px;
+}
+ul li{
+  list-style: none;
+}
+.input{
+  margin: 20px;
+}
+
+h1 span{
+  color: orangered;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+h1{
+  text-transform: uppercase;
+  color: orange;
+  text-decoration: underline;
+}
+li{
+  text-transform: capitalize;
+  color: orangered;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+
+
+
+input {
+  background-color: rgba(255, 166, 0, 0.041);
+  border: none;
+  outline: none;
+  border-bottom: 4px solid orange;
+  font-size: 18px;
+  font-weight: bold;
+}
+button{
+  margin: 10px;
+  box-shadow: 0px 0px 10px black;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 7px 10px 7px 10px;
+  width: 140px;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.input i{
+  font-size: 20px;
+  /* margin: 4px; */
+}
